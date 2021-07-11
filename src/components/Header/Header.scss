@@ -1,0 +1,15 @@
+.header {
+  .left {
+    display: block;
+    background-color: orange;
+
+    .logo {
+      display: block;
+      height: 60px;
+      width: auto;
+    }
+  }
+  .right {
+    background-color: red;
+  }
+}
