@@ -1,0 +1,57 @@
+.home {
+  overflow: hidden;
+
+  .carousel {
+    border-radius: 12px;
+    background-color: #c4c4c4;
+    margin: 75px 48px;
+
+    .carousel_inner {
+      height: 100%;
+      min-height: 727px;
+    }
+  }
+
+  .right {
+    background-color: #0a305a;
+    padding: 58px 54px;
+
+    .hot_product {
+      height: 100%;
+      color: white;
+      text-align: left;
+
+      span {
+        font-size: 18px;
+      }
+
+      .product {
+        .title {
+          padding: 26px 12px;
+          span {
+            font-size: 48px;
+            font-weight: bold;
+          }
+        }
+
+        .price {
+          font-size: 24px;
+        }
+
+        .description {
+          padding: 16px 0;
+          font-size: 24px;
+          line-height: 28px;
+          p {
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis;
+          }
+        }
+
+        .buy{
+          text-align: right;
+        }
+      }
+    }
+  }
+}

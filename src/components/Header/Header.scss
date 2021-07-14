@@ -1,15 +1,44 @@
 .header {
+  background-color: #546F8C;
+  position: fixed;
+  width: 100%;
+
   .left {
     display: block;
-    background-color: orange;
+
+    a{
+      display: block;
+      width: fit-content;
+    }
 
     .logo {
       display: block;
       height: 60px;
       width: auto;
+      padding-left: 24px;
     }
   }
   .right {
-    background-color: red;
+
+    .navigation{
+      padding-right: 24px;
+      height: 100%;
+      nav{
+        height: 100%;
+        text-align: right;
+
+        span{
+          height: 100%;
+          padding: 10px;
+          color: white;
+          font-size: 18px;
+
+          a{
+            color: white;
+            text-decoration: none;
+          }
+        }
+      }
+    }
   }
 }

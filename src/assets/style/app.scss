@@ -2,6 +2,7 @@ body{
   margin: initial;
   .el-header{
     padding: initial;
+    z-index: 7;
   }
 
   .el-main{
@@ -11,4 +12,28 @@ body{
   .el-footer{
     padding: initial;
   }
+
+  .el-button{
+    background: #FFFFFF;
+    border-radius: 15px;
+  }
 }
+
+.vertical-center {
+  &:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+}
+
+ul{
+  list-style: none;
+
+  li{
+    display: inline;
+  }
+}
+
+
